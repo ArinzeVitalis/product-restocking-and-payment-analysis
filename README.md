@@ -104,11 +104,33 @@ The available data was also suitable for integration into Power BI for visualiza
 | Quantity/goods sold          | Available      | 
 | Cost/profit information      | Not Available  | 
 | Data suitable for Power BI   | Yes            | 
+<br>
+#### Compliance Check
+This is about checking whether the data follows the required business rules, data standards, and reporting requirements.
+
+The dataset was reviewed against the defined business and data-quality requirements before analysis. Data fields were checked for appropriate formats, consistency, completeness, duplicate records, and valid categorical values. Transaction types were reviewed to ensure that they followed the expected classifications, while dates, quantities, and revenue values were checked for appropriate formats and reasonable values.
+
+The analysis also ensured that the dashboard calculations were based on the validated dataset and that the reporting period was consistent with the available sales records. Any data-quality issues identified during validation were addressed before the data was used for the final analysis.
+
+| Compliance Check                       | What was checked      |
+| ---------------------------- | -------------- |
+| Data types	| Dates, numbers and text stored correctly |
+| Missing values	| Checked important fields for blanks |
+| Duplicates	| Checked for duplicate transactions |
+| Dates	| Checked that dates were valid and within the analysis period |
+| Revenue	| Checked that revenue values were numeric and reasonable |
+| Quantity	| Checked that goods sold values were valid |
+| Transaction type	| Checked TRF, POS, CASH and TRF & CASH classifications |
+| Categories	| Checked that products were assigned to appropriate categories |
+| Consistency	| Checked naming and formatting consistency |
+| Calculations	| Cross-checked dashboard measures against source data |
+ 
+<br>
 
 <br>
 
 
-## Data Acquisition and Extraction
+## Data Acquisition and Preparation
 
 ## Visualization
 
