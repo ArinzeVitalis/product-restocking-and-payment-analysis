@@ -96,6 +96,7 @@ The required sales data was available for analysis and contained the key fields 
 The available data was also suitable for integration into Power BI for visualization and dashboard development. However, additional financial information such as product cost, operating expenses, and profit margins was not available. Therefore, the analysis focused primarily on revenue and sales performance, while precise profitability and ROI calculations were not established.
 <br>
 
+
 | Check                        | Findings       |
 | ---------------------------- | -------------- |
 | Sales data available         | Yes            |
@@ -107,6 +108,7 @@ The available data was also suitable for integration into Power BI for visualiza
 | Quantity/goods sold          | Available      | 
 | Cost/profit information      | Not Available  | 
 | Data suitable for Power BI   | Yes            | 
+
 <br>
 
 #### Compliance Check
@@ -189,39 +191,39 @@ Data Exploration Notes
 
 - Checked for blanks in the work book;
 
-select *
-From royandecorsales
-where goods is null
-   or quantity is null
-   or purchaseamount is null
+   select *
+   From royandecorsales
+   where goods is null
+      or quantity is null
+      or purchaseamount is null
 
-•	Removed any space within the goods column that might affect our analysis.
+- Removed any space within the goods column that might affect our analysis.
 
-update royandecorsales
-set goods = trim(goods);
+   update royandecorsales
+   set goods = trim(goods);
 
-•	Aff
+
 
 CREATE A VIEW TO STORE THE TRANSFORMED
-/*
-# 1. Create a view to store the transformed data
-# 2. Select the required columns from the royandecorsales SQL table 
-*/
-
--- 1.
-CREATE VIEW view_royandecorsales AS
--- 2.
-SELECT
-    goods,
-    Category,
-    Quantity,
-    PurchaseAmount,
-    Date,
-    TransactionType
-
-
-FROM
-    Royandecorsales
+   /*
+   #1. Create a view to store the transformed data
+   #2. Select the required columns from the royandecorsales SQL table 
+   */
+   
+   -- 1.
+   CREATE VIEW view_royandecorsales AS
+   -- 2.
+   SELECT
+       goods,
+       Category,
+       Quantity,
+       PurchaseAmount,
+       Date,
+       TransactionType
+   
+   
+   FROM
+       Royandecorsales
 
 
 DATA VALIDATION & QUALITY CHECK
