@@ -48,7 +48,7 @@ Simply put, she wants to find out;
 - Which products should be restocked?
 - Should the company keep or remove the POS payment method?
 
-Expansively;
+##### Expansively;
   - What is the total sales?
   - What is the total revenue generated?
   - What are the total sales per month?
