@@ -90,8 +90,11 @@ The data source is a first party data received from Royan Décor.
 
 ### AVAILABILTY & COMPLIANCE CHECKS
 <ins>Availability Check</ins>
+
 The required sales data was available for analysis and contained the key fields necessary to evaluate Royan Decor's sales performance. The dataset included information relating to sales dates, products, categories, transaction types, quantities/goods sold, and revenue. These fields provided sufficient information to analyze revenue trends, product performance, category performance, and transaction-type performance.
+
 The available data was also suitable for integration into Power BI for visualization and dashboard development. However, additional financial information such as product cost, operating expenses, and profit margins was not available. Therefore, the analysis focused primarily on revenue and sales performance, while precise profitability and ROI calculations were not established.
+
 
 | Check                        | Findings       |
 | ---------------------------- | -------------- |
@@ -158,17 +161,17 @@ Data Exploration Notes
 **Power BI** was used to visualize the data via interactive dashboards
 **GitHub** was used to host the project.
 
-DATA CLEANING
-•	We tried to import the data into SQL workbench but we ran into an issue so we had to format some certain data in the “Purchase Amount” column. The data was converted to CSV file and was successfully imported into MySQL workbench.
-•	Changed the data type of the columns in our database to the right formats.
+### DATA CLEANING
+- We tried to import the data into SQL workbench but we ran into an issue so we had to format some certain data in the “Purchase Amount” column. The data was converted to CSV file and was successfully imported into MySQL workbench.
+- Changed the data type of the columns in our database to the right formats.
 
-alter table royandecorsales
-modify column category varchar(100),
-modify column Quantity decimal (10, 2),
-modify column Measure varchar(100),
-modify column purchaseamount int,
-modify column date date,
-modify column transactiontype varchar(100)
+  alter table royandecorsales
+  modify column category varchar(100),
+  modify column Quantity decimal (10, 2),
+  modify column Measure varchar(100),
+  modify column purchaseamount int,
+  modify column date date,
+  modify column transactiontype varchar(100)
 
 
 •	The “description” and “measure” columns as they won’t be needed for this analysis. And this was done by pulling up the columns we needed in the database;
