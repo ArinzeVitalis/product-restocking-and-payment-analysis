@@ -49,13 +49,13 @@ Simply put, she wants to find out;
 - Should the company keep or remove the POS payment method?
 
 Expansively;
-      - What is the total sales?
-      - What is the total revenue generated?
-      - What are the total sales per month?
-      - Which products are the top performing products?
-      - How effective are the transaction types?
-      - Which product segment (Category) responded best? 
-      - Which product had the best balance between sales and profit?
+- What is the total sales?
+- What is the total revenue generated?
+- What are the total sales per month?
+- Which products are the top performing products?
+- How effective are the transaction types?
+- Which product segment (Category) responded best? 
+- Which product had the best balance between sales and profit?
 
 We will be working on this project with these questions in mind.
 
@@ -77,18 +77,31 @@ To understand the how well the business has performed, the products that need to
 ### DATA REQUIREMENTS & SOURCE 
 What is needed to achieve our objective? This will determine our data source.
 Since it is within the company, we will need the company’s Sales Data (Sales Record) that includes:
-•	Total Sales
-•	Total Profit
-•	List of products; and 
-•	Transactions and types
+- Total Sales
+- Total Profit
+- List of products; and 
+- Transactions and types
+
 The data source is a first party data received from Royan Décor.
 
-AVAILABILTY & COMPLIANCE CHECKS
-Availability Check
+### AVAILABILTY & COMPLIANCE CHECKS
+<ins>Availability Check</ins>
 The required sales data was available for analysis and contained the key fields necessary to evaluate Royan Decor's sales performance. The dataset included information relating to sales dates, products, categories, transaction types, quantities/goods sold, and revenue. These fields provided sufficient information to analyze revenue trends, product performance, category performance, and transaction-type performance.
 The available data was also suitable for integration into Power BI for visualization and dashboard development. However, additional financial information such as product cost, operating expenses, and profit margins was not available. Therefore, the analysis focused primarily on revenue and sales performance, while precise profitability and ROI calculations were not established.
 
+| Check                        | Findings       |
+| ---------------------------- | -------------- |
+| Sales data available         | Yes            |
+| Product information          | Available      | 
+| Category information         | Available      |  
+| Transaction type             | Available      | 
+| Sales/revenue                | Available      |
+| Date information             | Available      |
+| Quantity/goods sold          | Available      | 
+| Cost/profit information      | Not Available  | 
+| Data suitable for Power BI   | Yes            | 
 
+<br>
 
 
 ## Data Acquisition and Extraction
