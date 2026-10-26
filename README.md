@@ -48,14 +48,14 @@ Simply put, she wants to find out;
 - Which products should be restocked?
 - Should the company keep or remove the POS payment method?
 
-##### Expansively;
-  - What is the total sales?
-  - What is the total revenue generated?
-  - What are the total sales per month?
-  - Which products are the top performing products?
-  - How effective are the transaction types?
-  - Which product segment (Category) responded best? 
-  - Which product had the best balance between sales and profit?
+Expansively;
+      - What is the total sales?
+      - What is the total revenue generated?
+      - What are the total sales per month?
+      - Which products are the top performing products?
+      - How effective are the transaction types?
+      - Which product segment (Category) responded best? 
+      - Which product had the best balance between sales and profit?
 
 We will be working on this project with these questions in mind.
 
