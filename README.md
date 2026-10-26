@@ -239,6 +239,7 @@ We will be carrying out the following data tests;
 4.	Duplicate check
 
 <ins>COLUMN COUNT CHECK</ins>
+
       SQL Query
       /*
       #Count the total number of columns (or fields) in the SQL view
@@ -254,9 +255,10 @@ We will be carrying out the following data tests;
 <ins>Output</ins>
 
 ROW COUNT CHECK
+
 SQL Query
 /*
-# Count the total number of records (or rows) in the SQL view
+#Count the total number of records (or rows) in the SQL view
 */
 SELECT
     COUNT(*) AS no_of_rows
@@ -268,7 +270,7 @@ Output
 DATA TYPE CHECK
 SQL Query
 /*
-# Check the data types of each column from the view by checking the INFORMATION SCHEMA view
+#Check the data types of each column from the view by checking the INFORMATION SCHEMA view
 */-- 1.
 
 SELECT
