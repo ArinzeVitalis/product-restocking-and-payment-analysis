@@ -144,17 +144,19 @@ Data Exploration Notes
   -	CASH – transactions completed with physical cash
 
 
-DATA ACQUISITION & PREPARATION
-COLLECTION & EXTRACTION
-Tools Used
-Microsoft Excel was used to;
-•	Record the data
-•	Explore the data
-•	Format some certain columns in order to properly import the dataset into SQL.
-MySQL Server was used to;
-•	Clean, test and analyze the data
-Power BI was used to visualize the data via interactive dashboards
-Datascienceportfol.io was used to host the project.
+## DATA ACQUISITION & PREPARATION
+### COLLECTION & EXTRACTION
+<ins>Tools Used</ins>
+**Microsoft Excel** was used to;
+- Record the data
+- Explore the data
+- Format some certain columns in order to properly import the dataset into SQL.
+
+**SQL** was used to;
+- Clean, test and analyze the data
+
+**Power BI** was used to visualize the data via interactive dashboards
+**GitHub** was used to host the project.
 
 DATA CLEANING
 •	We tried to import the data into SQL workbench but we ran into an issue so we had to format some certain data in the “Purchase Amount” column. The data was converted to CSV file and was successfully imported into MySQL workbench.
