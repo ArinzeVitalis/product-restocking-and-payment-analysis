@@ -169,38 +169,38 @@ Data Exploration Notes
 - We tried to import the data into SQL workbench but we ran into an issue so we had to format some certain data in the “Purchase Amount” column. The data was converted to CSV file and was successfully imported into MySQL workbench.
 - Changed the data type of the columns in our database to the right formats.
 
-    alter table royandecorsales
-    modify column category varchar(100),
-    modify column Quantity decimal (10, 2),
-    modify column Measure varchar(100),
-    modify column purchaseamount int,
-    modify column date date,
-    modify column transactiontype varchar(100)
+       alter table royandecorsales
+       modify column category varchar(100),
+       modify column Quantity decimal (10, 2),
+       modify column Measure varchar(100),
+       modify column purchaseamount int,
+       modify column date date,
+       modify column transactiontype varchar(100)
 
 
 - The “description” and “measure” columns as they won’t be needed for this analysis. And this was done by pulling up the columns we needed in the database;
 
-   select 
-       goods,
-       quantity,
-       Purchaseamount,
-       date,
-       transactiontype
-    from 
-       royandecorsales
+      select 
+          goods,
+          quantity,
+          Purchaseamount,
+          date,
+          transactiontype
+       from 
+          royandecorsales
 
 - Checked for blanks in the work book;
 
-   select *
-   From royandecorsales
-   where goods is null
-      or quantity is null
-      or purchaseamount is null
+      select *
+      From royandecorsales
+      where goods is null
+         or quantity is null
+         or purchaseamount is null
 
 - Removed any space within the goods column that might affect our analysis.
 
-   update royandecorsales
-   set goods = trim(goods);
+     update royandecorsales
+     set goods = trim(goods);
 
 
 
