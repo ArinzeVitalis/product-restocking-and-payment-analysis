@@ -22,7 +22,7 @@ An end-to-end data analytics project using Excel, SQL, and Power BI to identify 
 #### Data Acquisition & Preparation
 - Collection & Extraction
 - Data Cleaning
-- Validation & Quality Checks 
+- Data Validation & Quality Checks 
 
 #### Visualization
 - Results
@@ -199,35 +199,37 @@ Data Exploration Notes
 
 - Removed any space within the goods column that might affect our analysis.
 
-     update royandecorsales
-     set goods = trim(goods);
+      update royandecorsales
+      set goods = trim(goods);
 
 
 
 CREATE A VIEW TO STORE THE TRANSFORMED
-   /*
-   #1. Create a view to store the transformed data
-   #2. Select the required columns from the royandecorsales SQL table 
-   */
-   
-   -- 1.
-   CREATE VIEW view_royandecorsales AS
-   -- 2.
-   SELECT
-       goods,
-       Category,
-       Quantity,
-       PurchaseAmount,
-       Date,
-       TransactionType
-   
-   
-   FROM
-       Royandecorsales
+      /*
+      #1. Create a view to store the transformed data
+      #2. Select the required columns from the royandecorsales SQL table 
+      */
+      
+      -- 1.
+      CREATE VIEW view_royandecorsales AS
+      -- 2.
+      SELECT
+          goods,
+          Category,
+          Quantity,
+          PurchaseAmount,
+          Date,
+          TransactionType
+      
+      
+      FROM
+          Royandecorsales
 
 
-DATA VALIDATION & QUALITY CHECK
+### DATA VALIDATION & QUALITY CHECK
+
 What tests do we need to validate our data sets?
+
 To continue this analysis, we need to be sure that our data meets the requirements to generate the insights we need.
 We will be carrying out the following data tests;
 1.	Column count check
@@ -235,17 +237,17 @@ We will be carrying out the following data tests;
 3.	Data type check
 4.	Duplicate check
 
-COLUMN COUNT CHECK
-SQL Query
-/*
-# Count the total number of columns (or fields) in the SQL view
-*/
-SELECT
-    COUNT(*) AS column_count
-FROM
-    INFORMATION_SCHEMA.COLUMNS
-WHERE
-    TABLE_NAME = 'view_royandecorsales'
+<ins>COLUMN COUNT CHECK</ins>
+      SQL Query
+      /*
+      #Count the total number of columns (or fields) in the SQL view
+      */
+      SELECT
+          COUNT(*) AS column_count
+      FROM
+          INFORMATION_SCHEMA.COLUMNS
+      WHERE
+          TABLE_NAME = 'view_royandecorsales'
 
 
 Output
