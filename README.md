@@ -105,7 +105,9 @@ The available data was also suitable for integration into Power BI for visualiza
 | Cost/profit information      | Not Available  | 
 | Data suitable for Power BI   | Yes            | 
 <br>
+
 #### Compliance Check
+
 This is about checking whether the data follows the required business rules, data standards, and reporting requirements.
 
 The dataset was reviewed against the defined business and data-quality requirements before analysis. Data fields were checked for appropriate formats, consistency, completeness, duplicate records, and valid categorical values. Transaction types were reviewed to ensure that they followed the expected classifications, while dates, quantities, and revenue values were checked for appropriate formats and reasonable values.
@@ -126,6 +128,214 @@ The analysis also ensured that the dashboard calculations were based on the vali
 | Calculations	| Cross-checked dashboard measures against source data |
  
 <br>
+
+### DATA EXPLORATION
+
+Data Exploration Notes
+
+- The data contains 76 rows and 8 columns.
+- There were 35 blank columns in the “Description” Column which is to be left blank since there’s no description available for it.
+- There’s no duplicate transaction(s) found in the dataset (since it was manually recorded).
+- The “description” is not necessary and would be removed.
+- There are some columns that are not in the right format, they’ll need to be addressed.
+- The transaction types include the following types of transactions;
+  -	TRF – transactions sent via electronic bank transfer
+  -	POS – transactions performed using a debit card
+  -	CASH – transactions completed with physical cash
+
+
+DATA ACQUISITION & PREPARATION
+COLLECTION & EXTRACTION
+Tools Used
+Microsoft Excel was used to;
+•	Record the data
+•	Explore the data
+•	Format some certain columns in order to properly import the dataset into SQL.
+MySQL Server was used to;
+•	Clean, test and analyze the data
+Power BI was used to visualize the data via interactive dashboards
+Datascienceportfol.io was used to host the project.
+
+DATA CLEANING
+•	We tried to import the data into SQL workbench but we ran into an issue so we had to format some certain data in the “Purchase Amount” column. The data was converted to CSV file and was successfully imported into MySQL workbench.
+•	Changed the data type of the columns in our database to the right formats.
+
+alter table royandecorsales
+modify column category varchar(100),
+modify column Quantity decimal (10, 2),
+modify column Measure varchar(100),
+modify column purchaseamount int,
+modify column date date,
+modify column transactiontype varchar(100)
+
+
+•	The “description” and “measure” columns as they won’t be needed for this analysis. And this was done by pulling up the columns we needed in the database;
+
+select 
+    goods,
+    quantity,
+    Purchaseamount,
+    date,
+    transactiontype
+ from 
+    royandecorsales
+
+•	Checked for blanks in the work book;
+
+select *
+From royandecorsales
+where goods is null
+   or quantity is null
+   or purchaseamount is null
+
+•	Removed any space within the goods column that might affect our analysis.
+
+update royandecorsales
+set goods = trim(goods);
+
+•	Aff
+
+CREATE A VIEW TO STORE THE TRANSFORMED
+/*
+# 1. Create a view to store the transformed data
+# 2. Select the required columns from the royandecorsales SQL table 
+*/
+
+-- 1.
+CREATE VIEW view_royandecorsales AS
+-- 2.
+SELECT
+    goods,
+    Category,
+    Quantity,
+    PurchaseAmount,
+    Date,
+    TransactionType
+
+
+FROM
+    Royandecorsales
+
+
+DATA VALIDATION & QUALITY CHECK
+What tests do we need to validate our data sets?
+To continue this analysis, we need to be sure that our data meets the requirements to generate the insights we need.
+We will be carrying out the following data tests;
+1.	Column count check
+2.	Row count check
+3.	Data type check
+4.	Duplicate check
+
+COLUMN COUNT CHECK
+SQL Query
+/*
+# Count the total number of columns (or fields) in the SQL view
+*/
+SELECT
+    COUNT(*) AS column_count
+FROM
+    INFORMATION_SCHEMA.COLUMNS
+WHERE
+    TABLE_NAME = 'view_royandecorsales'
+
+
+Output
+
+ROW COUNT CHECK
+SQL Query
+/*
+# Count the total number of records (or rows) in the SQL view
+*/
+SELECT
+    COUNT(*) AS no_of_rows
+FROM
+    view_royandecorsales;
+
+Output
+
+DATA TYPE CHECK
+SQL Query
+/*
+# Check the data types of each column from the view by checking the INFORMATION SCHEMA view
+*/-- 1.
+
+SELECT
+    COLUMN_NAME,
+    DATA_TYPE
+FROM
+    INFORMATION_SCHEMA.COLUMNS
+WHERE
+    TABLE_NAME = 'view_royandecorsales';
+
+Output
+
+DUPLICATE CHECK
+SQL Query
+Output
+
+
+VISUALIZATION
+RESULTS
+
+DAX MEASURES
+1.	Total Revenue
+2.	Total Quantity Sold
+3.	Total Transactions
+4.	Average Transaction Value
+5.	Percentage Contribution of each Transaction type
+6.	Average Quantity per Transanction
+
+1. Total Revenue
+Total Revenue = 
+VAR Totalrevenue = SUM('royandecor view_royandecorsales'[PurchaseAmount])
+
+RETURN Totalrevenue
+________________________________________
+2. Total Quantity Sold
+Total Quantity Sold = 
+VAR Totalquantitysold = SUM('royandecor view_royandecorsales'[Quantity])
+
+RETURN Totalquantitysold
+
+Shows how many items were sold.
+________________________________________
+3. Total Transactions
+Total Transactions = 
+VAR TotalTransactions = COUNT('royandecor view_royandecorsales'[TransactionType])
+
+RETURN TotalTransactions
+
+
+Shows the number of sales transactions.
+________________________________________
+4. Average Transaction Value
+Average Transaction Value = 
+VAR TotalRevenue = SUM('royandecor view_royandecorsales'[PurchaseAmount])
+VAR TotalTransaction = SUM('royandecor view_royandecorsales'[TransactionType])
+VAR AvgTransVal = DIVIDE([Total Revenue], [Total Transactions])
+
+RETURN AvgTransVal
+
+This tells the CEO how much the average customer spends per purchase.
+________________________________________
+5. Percentage Contribution of Each Transaction Type
+Percentage Contribution of Each Transaction Type = 
+VAR TotalRevenue = SUM('royandecor view_royandecorsales'[PurchaseAmount])
+VAR PercentContributionofTransaction = 
+DIVIDE(
+    TotalRevenue,
+    CALCULATE(
+        TotalRevenue,
+        ALL('royandecor view_royandecorsales'[TransactionType])
+))
+
+RETURN PercentContributionofTransaction
+________________________________________
+6. Average Quantity per Transaction
+Average Quantity = 
+AVERAGE('royandecor view_royandecorsales'[Quantity])
+RETURN AverageQuantityPerTransaction
+
 
 <br>
 
