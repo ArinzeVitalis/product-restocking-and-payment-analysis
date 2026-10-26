@@ -205,6 +205,7 @@ Data Exploration Notes
 
 
 CREATE A VIEW TO STORE THE TRANSFORMED
+
       /*
       #1. Create a view to store the transformed data
       #2. Select the required columns from the royandecorsales SQL table 
@@ -250,7 +251,7 @@ We will be carrying out the following data tests;
           TABLE_NAME = 'view_royandecorsales'
 
 
-Output
+<ins>Output</ins>
 
 ROW COUNT CHECK
 SQL Query
