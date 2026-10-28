@@ -419,11 +419,18 @@ For this analysis, we will be focusing on the questions that it should be answer
 <br>
 
 TOTAL SALES
+
 TOTAL SALES PER MONTH
+
 TOP PERFORMING PRODUCTS
+
 TRANSACTION TYPES (Effectiveness)
+
 PRODUCT CATEGORIES
+
 SALES TO REVENUE RATIOS
+
+
 
 
 
