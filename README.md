@@ -40,7 +40,7 @@ An end-to-end data analytics project using Excel, SQL, and Power BI to identify 
 
 <br>
 
-## Project Definition
+## PROJECT DEFINITION
 
 ### EVALUATION OF BUSINESS PROBLEM / QUESTION
 <ins>What is the key point?</ins>
@@ -77,7 +77,8 @@ To understand the how well the business has performed, the products that need to
 <br>
 
 
-## Data Identification
+## DATA IDENTIFICATION
+
 ### DATA REQUIREMENTS & SOURCE 
 What is needed to achieve our objective? This will determine our data source.
 Since it is within the company, we will need the company’s Sales Data (Sales Record) that includes:
@@ -402,7 +403,7 @@ The record was inputed manually, so there was no need for the duplicate check si
 <br>
 
 
-## Data Acquisition and Preparation
+## ANALYSIS
 
 ### EXPLORATORY DATA ANALYSIS
 <ins>Findings</ins>
@@ -454,9 +455,9 @@ SALES TO REVENUE RATIOS
 
 
 
-## Visualization
 
-## Analysis
+
+
 
 ## Recommendations
 
