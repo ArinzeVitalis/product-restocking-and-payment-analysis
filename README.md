@@ -253,8 +253,10 @@ We will be carrying out the following data tests;
 
 
 <ins>Output</ins>
+
 ![Output](Assets/Images/Column check SQL View.jpg)
 <br>
+
 
 
 <ins>2. ROW COUNT CHECK</ins>
@@ -270,8 +272,11 @@ We will be carrying out the following data tests;
 
 
 <ins>Output</ins>
+
 ![Output](Assets/Images/Count of rows SQL View.jpg)
 <br>
+
+
 
 
 <ins>3. DATA TYPE CHECK</ins>
@@ -289,7 +294,8 @@ We will be carrying out the following data tests;
       WHERE
           TABLE_NAME = 'view_royandecorsales';
 
-Output
+<ins>Output</ins>
+
 ![Output](Assets/Images/Data type check SQL View.jpg)
 <br>
 
@@ -311,29 +317,38 @@ The record was inputed manually, so there was no need for the duplicate check si
 5.	Percentage Contribution of each Transaction type
 6.	Average Quantity per Transanction
 
-1. Total Revenue
-Total Revenue = 
-VAR Totalrevenue = SUM('royandecor view_royandecorsales'[PurchaseAmount])
+**1. Total Revenue**
 
-RETURN Totalrevenue
-________________________________________
-2. Total Quantity Sold
-Total Quantity Sold = 
-VAR Totalquantitysold = SUM('royandecor view_royandecorsales'[Quantity])
+      Total Revenue = 
+      VAR Totalrevenue = SUM('royandecor view_royandecorsales'[PurchaseAmount])
+      
+      RETURN Totalrevenue
+      ________________________________________
+<br>
 
-RETURN Totalquantitysold
+**2. Total Quantity Sold**
 
-Shows how many items were sold.
-________________________________________
-3. Total Transactions
-Total Transactions = 
-VAR TotalTransactions = COUNT('royandecor view_royandecorsales'[TransactionType])
+      Total Quantity Sold = 
+      VAR Totalquantitysold = SUM('royandecor view_royandecorsales'[Quantity])
+      
+      RETURN Totalquantitysold
+      
+      Shows how many items were sold.
+      ________________________________________
+<br>
 
-RETURN TotalTransactions
+**3. Total Transactions**
 
+      Total Transactions = 
+      VAR TotalTransactions = COUNT('royandecor view_royandecorsales'[TransactionType])
+      
+      RETURN TotalTransactions
+      
+      
+      Shows the number of sales transactions.
+      ________________________________________
+<br>
 
-Shows the number of sales transactions.
-________________________________________
 4. Average Transaction Value
 Average Transaction Value = 
 VAR TotalRevenue = SUM('royandecor view_royandecorsales'[PurchaseAmount])
