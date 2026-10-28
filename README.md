@@ -253,39 +253,53 @@ We will be carrying out the following data tests;
 
 
 <ins>Output</ins>
+![Output](Assets/Images/Column check SQL View.jpg)
+<br>
 
-ROW COUNT CHECK
 
-SQL Query
-/*
-#Count the total number of records (or rows) in the SQL view
-*/
-SELECT
-    COUNT(*) AS no_of_rows
-FROM
-    view_royandecorsales;
+<ins>ROW COUNT CHECK</ins>
+
+      SQL Query
+      /*
+      #Count the total number of records (or rows) in the SQL view
+      */
+      SELECT
+          COUNT(*) AS no_of_rows
+      FROM
+          view_royandecorsales;
+
+<ins>Output</ins>
+![Output](Assets/Images/Count of rows SQL View.jpg)
+<br>
+
+
+<ins>DATA TYPE CHECK</ins>
+
+      SQL Query
+      /*
+      #Check the data types of each column from the view by checking the INFORMATION SCHEMA view
+      */-- 1.
+      
+      SELECT
+          COLUMN_NAME,
+          DATA_TYPE
+      FROM
+          INFORMATION_SCHEMA.COLUMNS
+      WHERE
+          TABLE_NAME = 'view_royandecorsales';
 
 Output
+![Output](Assets/Images/Data type check SQL View.jpg)
+<br>
 
-DATA TYPE CHECK
+
+<ins>DUPLICATE CHECK</ins>
+
 SQL Query
-/*
-#Check the data types of each column from the view by checking the INFORMATION SCHEMA view
-*/-- 1.
-
-SELECT
-    COLUMN_NAME,
-    DATA_TYPE
-FROM
-    INFORMATION_SCHEMA.COLUMNS
-WHERE
-    TABLE_NAME = 'view_royandecorsales';
 
 Output
-
-DUPLICATE CHECK
-SQL Query
-Output
+![Output](Assets/Images/Column check SQL View.jpg)
+<br>
 
 
 VISUALIZATION
