@@ -294,6 +294,7 @@ We will be carrying out the following data tests;
       WHERE
           TABLE_NAME = 'view_royandecorsales';
 
+
 <ins>Output</ins>
 
 ![Output](Assets/Images/Data type check SQL View.jpg)
@@ -307,6 +308,9 @@ The record was inputed manually, so there was no need for the duplicate check si
 
 ## VISUALIZATION
 ### RESULTS
+
+![Results](Assets/Images/Royan Decor Sales Dashboard.jpg)
+<br>
 
 ### DAX MEASURES
 
@@ -324,6 +328,8 @@ The record was inputed manually, so there was no need for the duplicate check si
       
       RETURN Totalrevenue
       ________________________________________
+
+
 <br>
 
 **2. Total Quantity Sold**
@@ -335,7 +341,9 @@ The record was inputed manually, so there was no need for the duplicate check si
       
       Shows how many items were sold.
       ________________________________________
+
 <br>
+
 
 **3. Total Transactions**
 
@@ -347,7 +355,9 @@ The record was inputed manually, so there was no need for the duplicate check si
       
       Shows the number of sales transactions.
       ________________________________________
+
 <br>
+
 
 **4. Average Transaction Value**
 
@@ -360,7 +370,9 @@ The record was inputed manually, so there was no need for the duplicate check si
       
       This tells the CEO how much the average customer spends per purchase.
       ________________________________________
+
 <br>
+
 
 **5. Percentage Contribution of Each Transaction Type**
 
@@ -376,7 +388,9 @@ The record was inputed manually, so there was no need for the duplicate check si
       
       RETURN PercentContributionofTransaction
       ________________________________________
+
 <br>
+
 
 **6. Average Quantity per Transaction**
 
