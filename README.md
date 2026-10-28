@@ -349,33 +349,40 @@ The record was inputed manually, so there was no need for the duplicate check si
       ________________________________________
 <br>
 
-4. Average Transaction Value
-Average Transaction Value = 
-VAR TotalRevenue = SUM('royandecor view_royandecorsales'[PurchaseAmount])
-VAR TotalTransaction = SUM('royandecor view_royandecorsales'[TransactionType])
-VAR AvgTransVal = DIVIDE([Total Revenue], [Total Transactions])
+**4. Average Transaction Value**
 
-RETURN AvgTransVal
+      Average Transaction Value = 
+      VAR TotalRevenue = SUM('royandecor view_royandecorsales'[PurchaseAmount])
+      VAR TotalTransaction = SUM('royandecor view_royandecorsales'[TransactionType])
+      VAR AvgTransVal = DIVIDE([Total Revenue], [Total Transactions])
+      
+      RETURN AvgTransVal
+      
+      This tells the CEO how much the average customer spends per purchase.
+      ________________________________________
+<br>
 
-This tells the CEO how much the average customer spends per purchase.
-________________________________________
-5. Percentage Contribution of Each Transaction Type
-Percentage Contribution of Each Transaction Type = 
-VAR TotalRevenue = SUM('royandecor view_royandecorsales'[PurchaseAmount])
-VAR PercentContributionofTransaction = 
-DIVIDE(
-    TotalRevenue,
-    CALCULATE(
-        TotalRevenue,
-        ALL('royandecor view_royandecorsales'[TransactionType])
-))
+**5. Percentage Contribution of Each Transaction Type**
 
-RETURN PercentContributionofTransaction
-________________________________________
-6. Average Quantity per Transaction
-Average Quantity = 
-AVERAGE('royandecor view_royandecorsales'[Quantity])
-RETURN AverageQuantityPerTransaction
+      Percentage Contribution of Each Transaction Type = 
+      VAR TotalRevenue = SUM('royandecor view_royandecorsales'[PurchaseAmount])
+      VAR PercentContributionofTransaction = 
+      DIVIDE(
+          TotalRevenue,
+          CALCULATE(
+              TotalRevenue,
+              ALL('royandecor view_royandecorsales'[TransactionType])
+      ))
+      
+      RETURN PercentContributionofTransaction
+      ________________________________________
+<br>
+
+**6. Average Quantity per Transaction**
+
+      Average Quantity = 
+      AVERAGE('royandecor view_royandecorsales'[Quantity])
+      RETURN AverageQuantityPerTransaction
 
 
 <br>
