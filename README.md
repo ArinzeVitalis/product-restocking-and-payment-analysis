@@ -238,7 +238,7 @@ We will be carrying out the following data tests;
 3.	Data type check
 4.	Duplicate check
 
-<ins>COLUMN COUNT CHECK</ins>
+<ins>1. COLUMN COUNT CHECK</ins>
 
       SQL Query
       /*
@@ -257,7 +257,7 @@ We will be carrying out the following data tests;
 <br>
 
 
-<ins>ROW COUNT CHECK</ins>
+<ins>2. ROW COUNT CHECK</ins>
 
       SQL Query
       /*
@@ -268,12 +268,13 @@ We will be carrying out the following data tests;
       FROM
           view_royandecorsales;
 
+
 <ins>Output</ins>
 ![Output](Assets/Images/Count of rows SQL View.jpg)
 <br>
 
 
-<ins>DATA TYPE CHECK</ins>
+<ins>3. DATA TYPE CHECK</ins>
 
       SQL Query
       /*
@@ -293,16 +294,11 @@ Output
 <br>
 
 
-<ins>DUPLICATE CHECK</ins>
-
-SQL Query
-
-Output
-![Output](Assets/Images/Column check SQL View.jpg)
-<br>
+<ins>4. DUPLICATE CHECK</ins>
+The record was inputed manually, so there was no need for the duplicate check since it was crosschecked aafter input.
 
 
-VISUALIZATION
+## VISUALIZATION
 RESULTS
 
 DAX MEASURES
