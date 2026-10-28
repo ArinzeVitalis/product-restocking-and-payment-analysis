@@ -404,6 +404,29 @@ The record was inputed manually, so there was no need for the duplicate check si
 
 ## Data Acquisition and Preparation
 
+### EXPLORATORY DATA ANALYSIS
+<ins>Findings</ins>
+
+For this analysis, we will be focusing on the questions that it should be answered. Which include;
+- What is the total sales?
+- What is the total revenue generated?
+- What are the total sales per month?
+- Which products are the top performing products?
+- How effective are the transaction types?
+- Which product segment (Category) responded best? 
+- Which product had the best balance between sales and profit?
+
+<br>
+
+TOTAL SALES
+TOTAL SALES PER MONTH
+TOP PERFORMING PRODUCTS
+TRANSACTION TYPES (Effectiveness)
+PRODUCT CATEGORIES
+SALES TO REVENUE RATIOS
+
+
+
 ## Visualization
 
 ## Analysis
