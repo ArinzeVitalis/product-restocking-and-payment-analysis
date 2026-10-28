@@ -295,13 +295,15 @@ Output
 
 
 <ins>4. DUPLICATE CHECK</ins>
+
 The record was inputed manually, so there was no need for the duplicate check since it was crosschecked aafter input.
 
 
 ## VISUALIZATION
-RESULTS
+### RESULTS
 
-DAX MEASURES
+### DAX MEASURES
+
 1.	Total Revenue
 2.	Total Quantity Sold
 3.	Total Transactions
