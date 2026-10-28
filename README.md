@@ -420,15 +420,35 @@ For this analysis, we will be focusing on the questions that it should be answer
 
 TOTAL SALES
 
+![TOTAL SALES](Assets/Images/Total Sales - SQL View.jpg)
+<br>
+
+
 TOTAL SALES PER MONTH
+
+![TOTAL SALES PER MONTH](Assets/Images/Total Sales Per Month - SQL View.jpg)
+<br>
 
 TOP PERFORMING PRODUCTS
 
+![TOTAL SALES PER MONTH](Assets/Images/Top Performing Products - SQL View.jpg)
+<br>
+
 TRANSACTION TYPES (Effectiveness)
+
+![TRANSACTION TYPES (Effectiveness)](Assets/Images/Transaction Types (Effectiveness) - SQL View.jpg)
+<br>
 
 PRODUCT CATEGORIES
 
+![PRODUCT CATEGORIES](Assets/Images/Product Category - SQL View.jpg)
+<br>
+
 SALES TO REVENUE RATIOS
+
+
+<br>
+
 
 
 
