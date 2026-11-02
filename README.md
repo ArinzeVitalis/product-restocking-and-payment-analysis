@@ -451,8 +451,8 @@ The analysis of Royan Decor's sales performance reveals several important patter
 
 - **Total revenue:** The business generated approximately **₦1.17 million** from **142 sales** across **75 transactions**, with an average transaction value of approximately **₦15.61K**.
 - **Category performance:** **Flooring** generated the highest revenue, followed by **Home Accessories, Flower & Accessories**, and **Wallpapers**. This indicates that flooring is currently a major revenue contributor.
-- **Product performance:** Carpet Grass is the highest-revenue product, followed by Centre Rug, Marble Sticker, and Wallpaper. These products appear to be important contributors to overall revenue.
-- **Transaction type:** The TRF transaction type accounts for approximately ₦899K (76.8%) of revenue, considerably higher than POS and CASH transactions. This indicates a strong concentration of revenue in this transaction channel. However, with POS transactions generating ₦143K (12.22%), it is worth paying attention to.
+- **Product performance:** **Carpet Grass** is the highest-revenue product, followed by **Centre Rug, Marble Sticker,** and **Wallpaper**. These products appear to be important contributors to overall revenue.
+- **Transaction type:** The **TRF** transaction type accounts for approximately **₦899K (76.8%)** of revenue, considerably higher than POS and CASH transactions. This indicates a strong concentration of revenue in this transaction channel. However, with **POS** transactions generating **₦143K (12.22%)**, it is worth paying attention to.
 - **Sales trend:** Monthly revenue fluctuates considerably, with several periods showing sharp increases followed by declines. This suggests that sales performance is not consistent across the analyzed period.
 - **Product concentration:** A relatively small group of products contributes a substantial portion of revenue. This creates an opportunity to focus inventory and promotional activities on high-performing products while monitoring lower-performing products.
 <br>
