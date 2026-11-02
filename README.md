@@ -471,18 +471,20 @@ The analysis indicates that Royan Decor's revenue is concentrated around a small
 **Major Potential Courses of Action**
 
 1. Strengthen the Flooring category
+
 Since Flooring is the highest-revenue category, management could allocate more inventory and promotional resources to this category.
 Potential actions:
-	Maintain sufficient flooring inventory.
-	Introduce complementary products.
-	Offer bundle pricing where appropriate.
-	Monitor flooring sales monthly to identify demand patterns.
+  - Maintain sufficient flooring inventory.
+  - Introduce complementary products.
+  - Offer bundle pricing where appropriate.
+  - Monitor flooring sales monthly to identify demand patterns.
 2. Desist from the removal of POS transaction type (Method)
+
 Since POS accounts for around 12.22%, it might be worth keeping other than removing it. Since it has proven to be useful in the payment process.
 The objective then, is to:
-	Work on improving the functionality of the POS payment method.
-	Understand why TRF is used more often.
-	Find out whether the transaction classification is being recorded consistently.
+   - Work on improving the functionality of the POS payment method.
+   - Understand why TRF is used more often.
+   - Find out whether the transaction classification is being recorded consistently.
 This could improve both financial reporting and transaction management.
 
 Other Possible Potential Courses of Action
