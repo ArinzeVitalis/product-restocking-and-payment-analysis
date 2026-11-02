@@ -473,7 +473,9 @@ The analysis indicates that Royan Decor's revenue is concentrated around a small
 1. Strengthen the Flooring category
 
    Since Flooring is the highest-revenue category, management could allocate more inventory and promotional resources to this category.
+
    Potential actions:
+
   - Maintain sufficient flooring inventory.
   - Introduce complementary products.
   - Offer bundle pricing where appropriate.
@@ -500,6 +502,7 @@ This could improve both financial reporting and transaction management.
    - Promote high-performing products through targeted marketing.
 
 2. Improve sales consistency
+
    The monthly sales chart shows substantial fluctuations.
    Management could:
    - Identify the reasons behind monthly peaks.
@@ -507,13 +510,14 @@ This could improve both financial reporting and transaction management.
    - Replicate successful sales strategies during weaker periods.
    - Develop monthly sales targets.
 
+<br>
 3. Review low-performing products
    Products with consistently low revenue should be reviewed before additional inventory is purchased.
 
-Management could classify products into:
-	High-performing → Maintain/increase stock
-	Moderate-performing → Monitor/promote
-	Low-performing → Review, discount, bundle, or reduce restocking
+   Management could classify products into:
+   - High-performing → Maintain/increase stock
+   - Moderate-performing → Monitor/promote
+   - Low-performing → Review, discount, bundle, or reduce restocking
 
 ### II) Estimated ROI & Business Impact
 Estimated ROI
