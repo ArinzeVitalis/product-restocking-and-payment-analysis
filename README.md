@@ -470,7 +470,7 @@ The analysis indicates that Royan Decor's revenue is concentrated around a small
 
 **Major Potential Courses of Action**
 
-1. Strengthen the Flooring category
+#### 1. Strengthen the Flooring category
 
    Since Flooring is the highest-revenue category, management could allocate more inventory and promotional resources to this category.
 
@@ -481,7 +481,7 @@ The analysis indicates that Royan Decor's revenue is concentrated around a small
   - Offer bundle pricing where appropriate.
   - Monitor flooring sales monthly to identify demand patterns.
 
-2. Desist from the removal of POS transaction type (Method)
+#### 2. Desist from the removal of POS transaction type (Method)
 
    Since POS accounts for around 12.22%, it might be worth keeping other than removing it. Since it has proven to be useful in the payment process.
    The objective then, is to:
@@ -534,7 +534,7 @@ Potential revenue:
 
       Current revenue = ₦1.17M
       10% potential increase = ₦117K
-      Potential revenue after increase = ₦1.287M
+      Potential revenue after increase = (Current revenue + 10% potential increase) = ₦1.17M + ₦117K = ₦1.287M
 
 Other Business scenarios:
 
