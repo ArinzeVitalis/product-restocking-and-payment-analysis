@@ -512,6 +512,7 @@ This could improve both financial reporting and transaction management.
    - Develop monthly sales targets.
 
 <ins>3. Review low-performing products<ins>
+
    Products with consistently low revenue should be reviewed before additional inventory is purchased.
 
    Management could classify products into:
@@ -535,6 +536,8 @@ Potential revenue:
       10% potential increase = ₦117K
       Potential revenue after increase = (Current revenue + 10% potential increase) = ₦1.17M + ₦117K = ₦1.287M
 
+<br>
+
 <ins>Other Business scenarios:<ins>
 
 
@@ -544,6 +547,21 @@ Potential revenue:
 | Moderate          | 10%      | ~₦117,000 | 
 | Higher-impact scenario        | 15%      | ~₦175,500 |
 
+<br>
+
+These are scenario estimates, not actual forecasts.
+
+
+Business impact
+The expected business impact could include:
+	Improved inventory allocation (proper product stocking).
+	Efficient usage and management of the various payment methods, particularly the POS payment method.
+	Reduced risk of stockouts for high-performing products.
+	Better identification of products requiring promotional attention.
+	More consistent monthly sales.
+	Improved understanding of transaction channels.
+	Better sales and inventory planning.
+	Potential increase in revenue and profitability.
 
 
 <br>
