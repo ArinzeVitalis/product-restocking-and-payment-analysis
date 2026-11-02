@@ -470,7 +470,7 @@ The analysis indicates that Royan Decor's revenue is concentrated around a small
 
 **Major Potential Courses of Action**
 
-#### 1. Strengthen the Flooring category
+<ins>1. Strengthen the Flooring category<ins>
 
    Since Flooring is the highest-revenue category, management could allocate more inventory and promotional resources to this category.
 
@@ -481,7 +481,7 @@ The analysis indicates that Royan Decor's revenue is concentrated around a small
   - Offer bundle pricing where appropriate.
   - Monitor flooring sales monthly to identify demand patterns.
 
-#### 2. Desist from the removal of POS transaction type (Method)
+<ins>2. Desist from the removal of POS transaction type (Method)<ins>
 
    Since POS accounts for around 12.22%, it might be worth keeping other than removing it. Since it has proven to be useful in the payment process.
    The objective then, is to:
@@ -492,7 +492,7 @@ The analysis indicates that Royan Decor's revenue is concentrated around a small
 This could improve both financial reporting and transaction management.
 
 **Other Possible Potential Courses of Action**
-1.  Increase focus on high-performing products
+<ins>1.  Increase focus on high-performing products<ins>
 
     Royan Decor should prioritize products such as Carpet Grass, Centre Rug, Marble Sticker, and Wallpaper, which contribute significantly to revenue.
 
@@ -502,7 +502,7 @@ This could improve both financial reporting and transaction management.
    - Create bundles around high-performing products.
    - Promote high-performing products through targeted marketing.
 
-2. Improve sales consistency
+<ins>2. Improve sales consistency<ins>
 
    The monthly sales chart shows substantial fluctuations.
    Management could:
@@ -511,8 +511,7 @@ This could improve both financial reporting and transaction management.
    - Replicate successful sales strategies during weaker periods.
    - Develop monthly sales targets.
 
-<br>
-3. Review low-performing products
+<ins>3. Review low-performing products<ins>
    Products with consistently low revenue should be reviewed before additional inventory is purchased.
 
    Management could classify products into:
@@ -536,20 +535,15 @@ Potential revenue:
       10% potential increase = ₦117K
       Potential revenue after increase = (Current revenue + 10% potential increase) = ₦1.17M + ₦117K = ₦1.287M
 
-Other Business scenarios:
+<ins>Other Business scenarios:<ins>
 
 
-| Check                        | Findings       |
-| ---------------------------- | -------------- |
-| Sales data available         | Yes            |
-| Product information          | Available      | 
-| Category information         | Available      |  
-| Transaction type             | Available      | 
-| Sales/revenue                | Available      |
-| Date information             | Available      |
-| Quantity/goods sold          | Available      | 
-| Cost/profit information      | Not Available  | 
-| Data suitable for Power BI   | Yes            | 
+| Scenario                        | Revenue Increase | Potential Revenue |
+| ---------------------------- | -------------- | ------------- |
+| Conservative       | 5%            | ~₦58,500 |
+| Moderate          | 10%      | ~₦117,000 | 
+| Higher-impact scenario        | 15%      | ~₦175,500 |
+
 
 
 <br>
