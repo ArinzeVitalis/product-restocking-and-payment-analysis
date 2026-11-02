@@ -474,7 +474,7 @@ The analysis indicates that Royan Decor's revenue is concentrated around a small
 
    Since Flooring is the highest-revenue category, management could allocate more inventory and promotional resources to this category.
 
-   Potential actions:
+   <ins>Potential actions:</ins>
 
   - Maintain sufficient flooring inventory.
   - Introduce complementary products.
@@ -495,7 +495,8 @@ This could improve both financial reporting and transaction management.
 1.  Increase focus on high-performing products
 
     Royan Decor should prioritize products such as Carpet Grass, Centre Rug, Marble Sticker, and Wallpaper, which contribute significantly to revenue.
-    Potential actions:
+
+    <ins>Potential actions:</ins>
    - Maintain adequate stock levels for high-demand products.
    - Identify products frequently purchased together.
    - Create bundles around high-performing products.
@@ -520,18 +521,35 @@ This could improve both financial reporting and transaction management.
    - Low-performing → Review, discount, bundle, or reduce restocking
 
 ### II) Estimated ROI & Business Impact
-Estimated ROI
+**Estimated ROI**
 The standard formula is:
-ROI = (Return − Investment) ÷ Investment × 100
+      *ROI = (Return − Investment) ÷ Investment × 100*
 The Sales Record received doesn’t contain the amount invested, profit generated. So we can’t get a proper ROI. So, we will be developing some scenarios to use and measure potential ROI.
-Business Scenario
+
+<ins>Business Scenario</ins>
+
 The proposed actions are expected to improve revenue through better inventory allocation, increased availability of high-performing products, and targeted promotion. For example, if these initiatives generate a conservative 10% increase in revenue on the current ₦1.17M revenue base, the potential additional revenue would be approximately ₦117,000. However, the actual ROI cannot be determined without information on implementation costs, product costs, gross margins, and operating expenses.
+
 Potential revenue:
-Current revenue = ₦1.17M
-10% potential increase = ₦117K
-Potential revenue after increase = ₦1.287M
+
+      Current revenue = ₦1.17M
+      10% potential increase = ₦117K
+      Potential revenue after increase = ₦1.287M
 
 Other Business scenarios:
+
+
+| Check                        | Findings       |
+| ---------------------------- | -------------- |
+| Sales data available         | Yes            |
+| Product information          | Available      | 
+| Category information         | Available      |  
+| Transaction type             | Available      | 
+| Sales/revenue                | Available      |
+| Date information             | Available      |
+| Quantity/goods sold          | Available      | 
+| Cost/profit information      | Not Available  | 
+| Data suitable for Power BI   | Yes            | 
 
 
 <br>
