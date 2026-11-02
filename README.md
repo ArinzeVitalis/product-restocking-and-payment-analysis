@@ -552,21 +552,29 @@ Potential revenue:
 These are scenario estimates, not actual forecasts.
 
 
-Business impact
+<ins>Business impact<ins>
+
 The expected business impact could include:
-	Improved inventory allocation (proper product stocking).
-	Efficient usage and management of the various payment methods, particularly the POS payment method.
-	Reduced risk of stockouts for high-performing products.
-	Better identification of products requiring promotional attention.
-	More consistent monthly sales.
-	Improved understanding of transaction channels.
-	Better sales and inventory planning.
-	Potential increase in revenue and profitability.
+- Improved inventory allocation (proper product stocking).
+- Efficient usage and management of the various payment methods, particularly the POS payment method.
+- Reduced risk of stockouts for high-performing products.
+- Better identification of products requiring promotional attention.
+- More consistent monthly sales.
+- Improved understanding of transaction channels.
+- Better sales and inventory planning.
+- Potential increase in revenue and profitability.
 
 
 <br>
 
-## Conclusion
+## CONCLUSION
+
+The analysis of Royan Decor's sales performance shows that the business generated approximately ₦1.17 million in revenue from 142 sales and 75 transactions. Revenue is concentrated primarily in the Flooring category, with products such as Carpet Grass and Centre Rug contributing significantly to overall sales. The TRF transaction type also represents the largest proportion of revenue at approximately 76.8%. However, the POS payment method has proven useful and shouldn’t be removed, rather let it be efficiently managed for continuity and diversification.
+
+The analysis further indicates considerable variation in monthly sales performance, creating an opportunity for the business to improve sales consistency. Management should prioritize high-performing products and categories, maintain appropriate inventory levels, investigate the reasons behind the dominance of TAF transactions, and develop strategies for improving weaker-performing products and sales periods.
+
+If effectively implemented, these actions could improve inventory utilization, sales consistency, and revenue generation. However, a precise ROI cannot be established from the current dashboard alone because product costs, profit margins, and implementation costs were not included in the analysis.
+
 
 
 
