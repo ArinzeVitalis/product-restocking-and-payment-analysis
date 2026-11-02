@@ -524,7 +524,9 @@ This could improve both financial reporting and transaction management.
 **Estimated ROI**
 
 The standard formula is:
+
       *ROI = (Return − Investment) ÷ Investment × 100*
+
 The Sales Record received doesn’t contain the amount invested, profit generated. So we can’t get a proper ROI. So, we will be developing some scenarios to use and measure potential ROI.
 
 <ins>Business Scenario</ins>
