@@ -464,15 +464,66 @@ The analysis indicates that Royan Decor's revenue is concentrated around a small
 <br>
 
 
-
-
-
-
-
-
-
-
 ## RECOMMENDATIONS
+
+### I) Potential Courses of Action
+
+**Major Potential Courses of Action**
+
+1. Strengthen the Flooring category
+Since Flooring is the highest-revenue category, management could allocate more inventory and promotional resources to this category.
+Potential actions:
+	Maintain sufficient flooring inventory.
+	Introduce complementary products.
+	Offer bundle pricing where appropriate.
+	Monitor flooring sales monthly to identify demand patterns.
+2. Desist from the removal of POS transaction type (Method)
+Since POS accounts for around 12.22%, it might be worth keeping other than removing it. Since it has proven to be useful in the payment process.
+The objective then, is to:
+	Work on improving the functionality of the POS payment method.
+	Understand why TRF is used more often.
+	Find out whether the transaction classification is being recorded consistently.
+This could improve both financial reporting and transaction management.
+
+Other Possible Potential Courses of Action
+1.  Increase focus on high-performing products
+Royan Decor should prioritize products such as Carpet Grass, Centre Rug, Marble Sticker, and Wallpaper, which contribute significantly to revenue.
+Potential actions:
+	Maintain adequate stock levels for high-demand products.
+	Identify products frequently purchased together.
+	Create bundles around high-performing products.
+	Promote high-performing products through targeted marketing.
+2. Improve sales consistency
+The monthly sales chart shows substantial fluctuations.
+Management could:
+	Identify the reasons behind monthly peaks.
+	Determine whether peaks are caused by specific products, customers, promotions, or large transactions.
+	Replicate successful sales strategies during weaker periods.
+	Develop monthly sales targets.
+3. Review low-performing products
+Products with consistently low revenue should be reviewed before additional inventory is purchased.
+
+Management could classify products into:
+	High-performing → Maintain/increase stock
+	Moderate-performing → Monitor/promote
+	Low-performing → Review, discount, bundle, or reduce restocking
+
+### II) Estimated ROI & Business Impact
+Estimated ROI
+The standard formula is:
+ROI = (Return − Investment) ÷ Investment × 100
+The Sales Record received doesn’t contain the amount invested, profit generated. So we can’t get a proper ROI. So, we will be developing some scenarios to use and measure potential ROI.
+Business Scenario
+The proposed actions are expected to improve revenue through better inventory allocation, increased availability of high-performing products, and targeted promotion. For example, if these initiatives generate a conservative 10% increase in revenue on the current ₦1.17M revenue base, the potential additional revenue would be approximately ₦117,000. However, the actual ROI cannot be determined without information on implementation costs, product costs, gross margins, and operating expenses.
+Potential revenue:
+Current revenue = ₦1.17M
+10% potential increase = ₦117K
+Potential revenue after increase = ₦1.287M
+
+Other Business scenarios:
+
+
+<br>
 
 ## Conclusion
 
